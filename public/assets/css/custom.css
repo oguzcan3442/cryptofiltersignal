@@ -1,0 +1,64 @@
+.login-register-btn{
+    width: 100%;
+}
+.rememberMe-forgotPass{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-post .post-entry{
+    height: 250px;
+}
+
+.news-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.blog-post .post-thumb img{
+    width: 100%;
+}
+.d-none{
+    display: none;
+}
+.recent-blogs img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.table-dark{
+    background: #212529;
+    color: white;
+}
+
+.filter-form:before, .strategy-filter:before{
+    display: none;
+}
+.filter-form{
+    display: grid;
+    gap: 10px;
+    align-items: flex-end;
+    grid-template-columns: 4fr 1fr;
+}
+.strategy-filter{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.tradingview-wrapper:before, .tradingview-wrapper:after{
+    display: none;
+}
+.tradingview-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 33px;
+}
+@media screen and (max-width: 768px){
+    .filter-form{
+        grid-template-columns: 1fr;
+    }
+    .strategy-filter{
+        grid-template-columns: 1fr 1fr;
+        align-items: baseline;
+    }
+}
